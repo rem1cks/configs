@@ -1,0 +1,194 @@
+[DISPLAY]
+;GPUAdapterInfo => Video adapter hash DeviceInstanceID
+;GPUAdapterSelectMode => 0 select by index (GPUAdapter) / 1 select by GPUAdapterInfo
+;InitialWindowPositionX/Y => -1 for centering
+;FPSLimit => Limit the game's fps. Minimum of 30fps. Anything below will disable the fps limit.
+;NVReflex. 0 : Disable, 1 : ReflexOn, 2 - ReflexWithBoost
+;NVReflexIndicator => Enables the in-game latency metrics indication.
+;Console => Enables the in-game console which is mapped to `/~. Will only work if the key is not already mapped.
+GPUInfo=1888179718
+GPUAdapter=0
+GPUAdapterInfo=-116358101
+GPUAdapterSelectMode=0
+InitialWindowPositionX=-1
+InitialWindowPositionY=-1
+Brightness=75.000000
+FPSLimit=0
+NVReflex=0
+NVReflexIndicator=0
+Console=0
+FSRMode=0
+
+[HARDWARE_INFO]
+GPUVendor=NVIDIA
+GPUDeviceId=0x2482
+GPUSubSysId=0
+GPUDedicatedMemoryMB=8245
+GPUScore=17464.000000
+GPUScoreConf=0.802584
+SystemMemoryMB=32559
+CPUScore=10000.000000
+HardwareNotificationEnable=1
+
+[DISPLAY_SETTINGS]
+;ResolutionXXX    => 0 for autodetection
+;RefreshRate      => 0 will let DirectX pick it
+;WindowMode       => 0 fullscreen / 1 windowed / 2 borderless
+;AspectRatio      => 0 display / 1 resolution / 2..N as options
+;VSync            => 0 disabled / 1 frame / 2 frames
+;UseLetterbox     => 0 disabled / 1 enabled
+;DefaultFOV       => Default vertical field of view (degrees)
+;UseAmdAGS => Enables usage of AMD AGS library for additional info in crash reports
+;VulkanWhitelistedLayers => Semicolon separated list, with all the Vulkan layers you want to enable, like VK_LAYER_VALVE_steam_fossilize;VK_LAYER_RTSS
+Monitor=1
+ResolutionWidth=1920
+ResolutionHeight=1080
+RefreshRate=240.000000
+WindowMode=2
+AspectRatio=3
+VSync=0
+MaxGPUBufferedFrame=1
+UseLetterbox=0
+DefaultFOV=90.000000
+EnableAMDMultiDraw=1
+EnableIntelMultiDraw=1
+UseAmdAGS=1
+VulkanWhitelistedLayers=VK_LAYER_OW_OBS_HOOK;VK_LAYER_OW_OVERLAY
+
+[QUALITY]
+OverallQualityLevelName=Custom
+
+[CUSTOM_QUALITY]
+AntiAliasing=0
+Geometry=4
+Lighting=1
+Shadow=1
+Sharpness=10
+Texture=1
+VFX=0
+TextureFiltering=0
+Reflection=0
+AO=0
+LensEffects=0
+DOF=0
+AdaptiveRenderScalingTargetFPS=0
+RenderScalingFactor=5
+DLSSPerfQual=0
+
+[READ_ONLY]
+EngineSettingsVersion=1
+DefaultValuesVersion=12
+
+[INPUT]
+RawInputMouseKeyboard=1
+InvertAxisY=0
+InvertMouseAxisY=0
+Rumble=1
+AimAssist=1
+YawSensitivity=20
+PitchSensitivity=10
+DeadzoneLeftStick=15
+DeadzoneRightStick=15
+ControllerStickRotationCurve=0
+MouseSensitivity=50
+MouseYawSensitivity=87
+MousePitchSensitivity=87
+MouseSensitivityMultiplierUnit=0.002000
+MouseScroll=1
+XFactorAiming=0.020000
+ToggleAim=0
+ToggleAimGamepad=0
+ToggleLean=1
+ToggleSprint=0
+ToggleCrouch=1
+ToggleProne=1
+ToggleWalk=0
+ToggleGadgetDeploymentGamepad=1
+ToggleGadgetDeploymentKeyboard=1
+AimDownSights=50
+ADSGamepadUseSpecific=1
+ADSGamepadSensitivityGlobal=50
+ADSGamepadSensitivity1x=34
+ADSGamepadSensitivity1xHalf=53
+ADSGamepadSensitivity2x=54
+ADSGamepadSensitivity2xHalf=54
+ADSGamepadSensitivity3x=55
+ADSGamepadSensitivity4x=55
+ADSGamepadSensitivity5x=55
+ADSGamepadSensitivity12x=84
+ADSGamepadMultiplierUnit=0.020000
+AdvancedGamepadOptions=0
+GamepadHorizontalFullTiltBoostModifier=50
+GamepadVerticalFullTiltBoostModifier=50
+FullTiltBoostRampupDelay=0.000000
+GamepadFullTiltBoostRampupTime=0.350000
+ADSGamepadHorizontalFullTiltBoostModifier=20
+ADSGamepadVerticalFullTiltBoostModifier=15
+ADSFullTiltBoostRampupDelay=0.250000
+ADSGamepadFullTiltBoostRampupTime=1.000000
+OuterDeadzoneRightStick=0
+GamepadLookDampeningTime=0.000000
+AimDownSightsMouse=83
+ADSMouseUseSpecific=1
+ADSMouseSensitivityGlobal=83
+ADSMouseSensitivity1x=58
+ADSMouseSensitivity1xHalf=89
+ADSMouseSensitivity2x=111
+ADSMouseSensitivity2xHalf=117
+ADSMouseSensitivity3x=118
+ADSMouseSensitivity4x=119
+ADSMouseSensitivity5x=121
+ADSMouseSensitivity12x=162
+ADSMouseMultiplierUnit=0.020000
+ControlSchemeIndex=0
+ControllerInputDevice=1
+
+[AUDIO]
+;Dynamic Range mode: (0) Hi-Fi, (1) TV, (2) Night Mode
+;VoiceChatCaptureMode => 0 Auto / 1 Manual / 2 Push to talk
+Subtitle=1
+Volume=0.420000
+VolumeMusic=0.040000
+VolumeSoundEffects=1.000000
+VolumeVoice=0.220000
+DynamicRangeMode=0
+VoiceChatPlaybackLevel=58
+VoiceChatCaptureThresholdV2=28
+VoiceChatCaptureMode=0
+VoiceChatCaptureLevel=89
+Mute=0
+VoiceChatMuteAll=0
+VoiceChatTeamOnly=1
+AudioInputVoiceChatDevice=-888613236
+AudioOutputVoiceChatDevice=-662904420
+AudioOutputDevice=-662904420
+
+[GAMEPLAY]
+GameplayPingEnable=1
+
+[ACCESSIBILITY]
+TeamColorAllyIndex=0
+TeamColorEnemyIndex=2
+ColorBlindMode=0
+
+[ONLINE]
+;DataCenterHint => 
+;    default (ping based)
+;    playfab/australiaeast
+;    playfab/brazilsouth
+;    playfab/centralus
+;    playfab/eastasia
+;    playfab/eastus
+;    playfab/japaneast
+;    playfab/northeurope
+;    playfab/southafricanorth
+;    playfab/southcentralus
+;    playfab/southeastasia
+;    playfab/uaenorth
+;    playfab/westeurope
+;    playfab/westus
+
+;
+;if UseProxyAutoDiscovery is set to true, http_proxy or https_proxy or all_proxy and no_proxy are going to be looked up and used for all http calls
+DataCenterHint=default
+UseProxyAutoDiscovery=0
